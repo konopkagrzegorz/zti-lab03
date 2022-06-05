@@ -1,0 +1,10 @@
+<h3>Użycie ngModel</h3>
+<br>
+<label for="student">Imię: </label>
+<input [(ngModel)]="imie"><br>
+<label for="student">Nazwisko: </label>
+<input [(ngModel)]="nazwisko"><br>
+<label for="student">Wiek: </label>
+<input [(ngModel)]="wiek" type="number" value="20"><br>
+<button (click)="displayStudentData()">Wyświetl dane</button>
+<button (click)="resetStudentInput()">Czyść input</button>

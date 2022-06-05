@@ -1,0 +1,11 @@
+<h3>Użycie ngModel</h3>
+<p>Imię ucznia to: {{ imie }}</p>
+<p>Nazwisko ucznia to: {{ nazwisko }}</p>
+<p>Wiek ucznia to: {{ wiek }}</p>
+<br>
+<label for="student">imię: </label>
+<input [(ngModel)]="imie"> {{ imie }}<br>
+<label for="student">Nazwisko: </label>
+<input [(ngModel)]="nazwisko"> {{ nazwisko }}<br>
+<label for="student">Wiek: </label>
+<input [(ngModel)]="wiek" type="number" value="20"> {{ wiek }}
